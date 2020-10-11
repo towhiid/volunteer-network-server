@@ -43,7 +43,7 @@ client.connect(err => {
 
 
 app.get('/', (req, res) => {
-  res.send('Volunteer Network!')
+  res.send('Volunteer Network is working!')
 })
 
 app.listen(process.env.PORT || port)
